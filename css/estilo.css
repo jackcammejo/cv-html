@@ -1,0 +1,84 @@
+.nombre{
+    width: 100%;
+    height: 300px;
+    background-color: #688B58;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    color: #333533;
+    background-color: #E8EDDF;
+}
+.nombre .contenido{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+.nombre .contenido .p1{
+    font-family: 'STIX Two Text', serif;
+    font-weight: 20px;
+    font-size: 50px;
+    
+}
+.nombre .contenido .p2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 20px;
+    font-size: 25px;
+    color: #E8EDDF;
+
+}
+.nombre .foto{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.nombre .foto img{
+    width: 180px;
+    height: 180px;
+}
+
+.info{
+    width: 60%;
+    height: auto;
+    background: #688B58;
+    margin: 0% auto;
+    padding: 0%;
+    font-family: 'STIX Two Text', serif;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 30px;
+   
+ }
+ .info .informaciond{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: normal;
+    font-size: 50px; 
+    border-bottom: 2px #333533 solid;
+ }
+.info .infoj{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: normal;
+    font-size: xx-large; 
+}
+.contenido.redes.button{
+ 
+    border-radius: 30px;
+    background: blue;
+    cursor: pointer;
+    padding: 30px;
+    font-size: 20px;
+}
+.fa-brands{
+    color: #333533;
+    font-size: 25px;
+    margin: 15px;
+    width: auto;
+    height: 30%;
+}
