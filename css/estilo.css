@@ -1,6 +1,7 @@
+
 .nombre{
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: #688B58;
 }
 body{
@@ -8,6 +9,7 @@ body{
     padding: 0%;
     color: #333533;
     background-color: #E8EDDF;
+    box-sizing: border-box;
 }
 .nombre .contenido{
     width: 50%;
@@ -67,18 +69,59 @@ body{
     font-weight: normal;
     font-size: xx-large; 
 }
-.contenido.redes.button{
- 
-    border-radius: 30px;
-    background: blue;
-    cursor: pointer;
-    padding: 30px;
-    font-size: 20px;
+
+.footer{
+    background-color: #688B58;
+    box-sizing: border-box;
 }
-.fa-brands{
+.container{
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.container-about h2{
+    color: #E8EDDF;
+    font-size: 2rem;
+    font-family:'STIX Two Text', serif;
+    box-sizing: border-box;
+}
+ .container-about p{
     color: #333533;
-    font-size: 25px;
-    margin: 15px;
-    width: auto;
-    height: 30%;
+    font-family: 'STIX Two Text', serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+ .container-redes_social{
+    color: #E8EDDF;
+    font-size: 2rem;
+    font-family: 'STIX Two Text', serif;
+    text-align: center;
+    padding: 0px 10px;
+}
+ .links{
+    color: #333533;
+    display: flex;
+    font-size: 1.2rem;
+    line-height: 50px;
+    text-decoration: none;
+}
+.icon{
+    font-size: 30px;
+    background-color: #688B58;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.icon:hover{
+    background-color: #E8EDDF;
+}
+
+.final-container{
+    text-align: center;
+    color: #333533;
+    font-size: 1.3rem;
+    padding: 10px;
+    font-family:'STIX Two Text', serif ;
 }
